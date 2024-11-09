@@ -34,11 +34,13 @@ dependencies:
   barcode_scan2: ^4.2.0
   http: ^1.2.2
   cupertino_icons: ^1.0.8
-  url_launcher: ^6.0.20
+  url_launcher: ^6.3.1
   dio: ^5.2.1 # Actualiza solo esta versión a la más reciente
   path_provider: ^2.1.4 # Mantén esta versión ya que no existe una 2.1.5
   open_file: ^3.2.1
   connectivity_plus: ^6.0.5
+  shared_preferences: ^2.1.0
+  flutter_dotenv: ^5.2.1
 
 
 
@@ -61,6 +63,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  assets:
+    - assets/images/fondo.jpg
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

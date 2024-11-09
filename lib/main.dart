@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'SignInScreen.dart';
 import 'WelcomeScreen.dart';
+import 'settingsScreen.dart';
+import 'ScanScreen.dart';
 
 void main() {
   runApp(MyApp());
